@@ -229,6 +229,66 @@ input:focus {
 
 
 /*-------------------------------------------------------------4---------------------------------------------------*/
+.flexiable {
+    display: flex;
+    margin-bottom: 125px;
+    margin-top: 125px;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+
+.covid-19 {
+    height: 100vh;
+    background-image: url(images/bg-1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #15181d;
+}
+
+#heading-covid {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#paragraph-covid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    color: #707070;
+
+}
+
+.covid-img {
+    padding: 50px;
+}
+
+.covid-text {
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+#button-3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
 
 /*-------------------------------------------------------------4---------------------------------------------------*/
 
@@ -276,7 +336,7 @@ input:focus {
     letter-spacing: 1.2px;
     border: none;
     cursor: pointer;
-    border-radius: 0 5px 0 5px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 /*-------------------------------------------------------------5---------------------------------------------------*/
