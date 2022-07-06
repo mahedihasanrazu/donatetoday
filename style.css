@@ -79,8 +79,8 @@ body {
 
 .donate-today {
     background-color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 50px;
 }
 
@@ -105,21 +105,22 @@ body {
 
 }
 
+.container-taka div {
+    flex-basis: 20%;
+}
+
 .container-taka {
     display: flex;
     flex-direction: row;
-    flex-basis: 20%;
-    justify-content: center;
     justify-content: space-around;
     border-radius: 5px;
-    padding: 20px;
-    font-family: 'Inter';
     font-style: normal;
+    color: #707070;
+    font-family: 'Inter';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #707070;
 }
 
 .child1,
@@ -127,39 +128,55 @@ body {
 .child4,
 .child5 {
     background: #FAFAFA;
-    border-radius: 5px;
-    padding: 18px 25px 18px 25px;
+    margin: 10px;
 }
 
 .child2 {
     background: #FFEEEE;
-    padding: 18px 25px 18px 25px;
     border: 2px solid #FF5959;
-    border-radius: 5px;
     color: #FF5959;
+
+    margin: 10px;
 }
 
-hr {
-    padding: 0px;
-    margin: 0%;
-}
-
-#amount {
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #DADADA;
     text-align: center;
-    padding: 50px 0px 5px 0px;
-    margin: 0%;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
-#button-2 {
+input:focus {
+    border-color: black;
+}
+
+.button-2 {
+
     font-family: 'Inter';
-    text-align: center;
-    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
     background: #FF5959;
     border-radius: 5px;
     text-decoration: none;
-    padding: 10px 40px;
-    display: inline-block;
+    padding: 10px 15px;
+    position: absolute;
+    top: 188%;
+    left: 44%;
 }
+
 
 /*-------------------------------------------------------------2---------------------------------------------------*/
 
@@ -169,7 +186,7 @@ hr {
 /*-------------------------------------------------------------3---------------------------------------------------*/
 
 .donate-plan {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -204,10 +221,6 @@ hr {
     padding: 60px 25px 40px 25px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-hr {
-    width: 90%;
 }
 
 /*-------------------------------------------------------------3---------------------------------------------------*/
