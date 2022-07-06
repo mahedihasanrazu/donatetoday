@@ -117,9 +117,9 @@ body {
     font-style: normal;
     color: #707070;
     font-family: 'Inter';
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 75px;
     text-align: center;
 }
 
@@ -128,7 +128,7 @@ body {
 .child4,
 .child5 {
     background: #FAFAFA;
-    margin: 10px;
+    margin: 20px;
 }
 
 .child2 {
@@ -136,7 +136,7 @@ body {
     border: 2px solid #FF5959;
     color: #FF5959;
 
-    margin: 10px;
+    margin: 20px;
 }
 
 #input-1 {
@@ -173,6 +173,7 @@ input:focus {
     text-decoration: none;
     padding: 10px 15px;
     position: absolute;
+    margin-top: 30px;
     top: 188%;
     left: 44%;
 }
@@ -221,6 +222,16 @@ input:focus {
     padding: 60px 25px 40px 25px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.paragraph-plan {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #707070;
 }
 
 /*-------------------------------------------------------------3---------------------------------------------------*/
